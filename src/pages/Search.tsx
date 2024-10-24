@@ -1,5 +1,6 @@
 import SearchBar from "../components/searchBar.component";
 import RandomPokemon from "../components/randomPokemon.component";
+import PokemonTable from "../components/pokemonTable/pokemonTable.component";
 import "./Search.css";
 
 function SearchPage() {
@@ -10,6 +11,8 @@ function SearchPage() {
         <SearchBar resultsHeight={60} minChar={1} nbrOfElements={5} />
         <RandomPokemon imgHeight={66} />
       </div>
+      <h2>Or browse them !</h2>
+      <PokemonTable />
     </main>
   );
 }

@@ -1,0 +1,32 @@
+.tableSearchUL {
+  display: flex;
+  width: 90vw;
+  border: 1px solid black;
+  background-color: var(--secondaryColor);
+}
+.tableSearchUL > li {
+  width: auto;
+  height: 40px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.idFilter {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.filterArrow {
+  margin-left: 4px;
+  height: 100%;
+  transition: transform 0.1s ease-in;
+  cursor: pointer;
+}
+.filterArrow:hover {
+  transform: translateY(-2px);
+}
+.tableSearchUL > li {
+  padding: 10px;
+}

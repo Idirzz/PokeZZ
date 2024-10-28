@@ -1,6 +1,6 @@
 import SearchBar from "../components/searchBar.component";
 import RandomPokemon from "../components/randomPokemon.component";
-import PokemonTable from "../components/pokemonTable/pokemonTable.component";
+import PokemonTable from "../components/PokemonTable.component";
 import "./Search.css";
 
 function SearchPage() {

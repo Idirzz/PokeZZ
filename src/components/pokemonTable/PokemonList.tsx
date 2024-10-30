@@ -131,7 +131,7 @@ function PokemonTableSearch({
         {pokemonList.map((pokemon) => {
           return (
             <li className="pokemonListElementContainer" key={pokemon.id}>
-              <ul className="PokemonListElement">
+              <ul className="PokemonListElement fadeIn">
                 <li>{pokemon.id}</li>
 
                 <li>

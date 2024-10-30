@@ -12,6 +12,12 @@
   display: flex;
   align-items: center;
 }
+.tableSearchUL > li:first-child {
+  width: 9.95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .idFilter {
   height: 100%;
   display: flex;
@@ -29,4 +35,17 @@
 }
 .tableSearchUL > li {
   padding: 10px;
+}
+
+.fadeIn {
+  animation: fadeIn 1.33s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

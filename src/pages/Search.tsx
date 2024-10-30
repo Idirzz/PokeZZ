@@ -1,5 +1,5 @@
-import SearchBar from "../components/searchBar.component";
-import RandomPokemon from "../components/randomPokemon.component";
+import SearchBar from "../components/SearchBar.component";
+import RandomPokemon from "../components/RandomPokemon.component";
 import PokemonTable from "../components/PokemonTable.component";
 import "./Search.css";
 
